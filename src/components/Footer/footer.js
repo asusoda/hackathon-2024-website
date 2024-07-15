@@ -9,7 +9,7 @@ import "./footer.scss";
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from "../navbar/sunhacks.png";
+import logo from "../navbar/logo-dark-compact.png";
 import dsc from "./dsc.png";
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from "../../Module/General";
