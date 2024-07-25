@@ -1,40 +1,27 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "jsx": "react-jsx",
-    "lib": [
-      "dom",
-      "esnext",
-      "es5",
-      "es6",
-      "dom.iterable"
-    ],
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "isolatedModules": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false,
-    "allowJs": true,
-    "moduleResolution": "Node",
-    "baseUrl": "src",
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
-  "include": [
-    "./src/**/*",
-    "types/**/*.d.ts",
-    "gatsby-browser.js",
-    "gatsby-config.js",
-    "gatsby-ssr.js",
-    "gatsby-node.js"
-  ],
-  "exclude": [
-    "node_modules",
-    "public",
-    ".cache"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Timeline.jsx", "components/Cube.jsx", "components/animations/animate.jsx", "components/animations/animate.js"],
+  "exclude": ["node_modules"]
 }

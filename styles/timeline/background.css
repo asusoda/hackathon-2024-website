@@ -1,0 +1,59 @@
+.timelineContainer1 {
+  position: relative;
+  /* width: 500px; */
+  /* height: 420px; */
+  margin: auto;
+}
+
+.timelineContainer1::before {
+  content: "";
+  position: absolute;
+  top: 800px;
+  /* left: 90%; */
+  right: -25%;
+  width: 650px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: rgb(120, 47, 152);
+  background: linear-gradient(343deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+  filter: blur(350px);
+  z-index: -1;
+}
+
+
+.timelineContainer1::after {
+  content: "";
+  position: absolute;
+  top: 210px;
+  left: -25%;
+  width: 650px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: rgb(120, 47, 152);
+  background: linear-gradient(343deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+  filter: blur(350px);
+  z-index: -1;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .timelineContainer1::after {
+    top: 0px;
+    height: 100px;
+    width: 500px;
+    left: 0px;
+    filter: blur(100px);
+    /* rotate: 90deg; */
+
+
+  }
+
+  .timelineContainer1::before {
+    top: 0px;
+    width: 0px;
+
+  }
+
+}

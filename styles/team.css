@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&family=Poiret+One&display=swap');
+
+.font-Newsreader {
+    font-family: 'Newsreader', serif;
+}
+
+.font-PorietOne {
+    font-family: 'Poiret One', sans-serif;
+}
+
+.team-image{
+    background-image: url("../public/assets/images/team.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ 
+
+.navigation .animation{
+    position: absolute;
+    height: 100%;
+    width: 110px;
+    top : 0;
+    left: 100px;
+    z-index: -1;
+    transition: 0.35s ease-in-out;
+    border-radius: 10px ;
+}
+
+/* .navigation .start {
+    position: relative;
+} */
+
+.navigation .organizer,button:hover~.animation{
+    left: 5px;
+    width: 100px;
+}
+
+.navigation .web,button:nth-child(2):hover~.animation{
+    left: 111px;
+    width: 58px;
+}
+
+
+.navigation .sponsorship,button:nth-child(3):hover~.animation{
+    left: 173px;
+    width: 124px;
+}
+
+.navigation .management,button:nth-child(4):hover~.animation{
+    left: 300px;
+    width: 138px;
+}
+
+.navigation .outreach,button:nth-child(5):hover~.animation{
+    left: 440px;
+    width: 99px;
+}
+
+.navigation .design,button:nth-child(6):hover~.animation{
+    left: 544px;
+    width: 78px;
+}
+
+
+@media (max-width: 768px){
+  .animation{
+    display : none ;
+  }
+
+  .navigation .active{
+    @apply  bg-gradient-to-l  from-purple-500  to-pink-500 rounded-md;
+  }
+}
+
