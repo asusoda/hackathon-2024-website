@@ -51,7 +51,7 @@
     "react-twitter-widgets": "^1.11.0",
     "sass": "^1.69.5",
     "styled-components": "^6.1.1",
-    "three": "^0.158.0",
+    "three": "^0.167.1",
     "three-bmfont-text": "^3.0.1"
   },
   "devDependencies": {
