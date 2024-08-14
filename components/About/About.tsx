@@ -99,7 +99,7 @@ const About = () => {
             transition={{ type: "easeIn", duration: 1.2, delay: 0 }}
             className="my-5 h-52 w-full sm:h-80 rounded-2xl"
             style={{
-              backgroundImage: "url('/team_members/mem1.JPG')",
+              backgroundImage: "url('/team_members/soda-mem1.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
