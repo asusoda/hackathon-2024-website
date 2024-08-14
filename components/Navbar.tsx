@@ -69,10 +69,10 @@ const Navbar = (activeSection: any) => {
         <div className="sm:pl-7 mr-auto">
           <a href="#top">
             <img
-              src="/assets/images/duhacks.png"
-              alt="DU Hacks"
-              width={50}
-              height={50}
+              src="/assets/images/soda.png"
+              alt="SoDA"
+              width={100}
+              height={100}
             />
           </a>
         </div>
