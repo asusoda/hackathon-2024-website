@@ -67,10 +67,10 @@ const About = () => {
         <div className="basis-1/2 border-2 rounded-2xl sm:h-96 w-full p-5 overflow-y-scroll lg:overflow-auto glassy-effect">
           <p className="text-slate-200 text-lg sm:text-xl sm:mt-3">
             Getting into a loop of ideas, but finding out where to showcase them? It's time to think big and act fast!💡
-            Start building projects and join us at DUHacks 3.0! 🛠️
+            Start building projects and join us at HackSODA 24! 🛠️
             <br />
             <br />
-            DUHacks 3.0 is a 36-hour national-level hackathon organized by the Google Developer Student Club, DDU🌍
+            HackSODA 24 is a 36-hour national-level hackathon organized by the Software Developers Association Student Club, ASU🌍
             <br />
             <br />
             This event provides a platform for passionate developers, designers, and enthusiasts to come together and
@@ -80,11 +80,11 @@ const About = () => {
             <br />
             <br />
             <span className="font-bold">
-              Your keyboard is your sword, your idea is your challenge, code is your vision, and DUHacks 3.0 is your stage! 🚨
+              Your keyboard is your sword, your idea is your challenge, code is your vision, and HackSODA 24 is your stage! 🚨
             </span>
             <br />
             <br />
-            See you all in the hackathon!🔍💻
+            See you all at the hackathon!🔍💻
           </p>
         </div>
         <div className="basis-1/2 border-2 h-96 rounded-2xl w-full p-4 sm:h-96 glassy-effect">
