@@ -133,10 +133,10 @@ export default function Home() {
         <PrizeSection />
       </div>
 
-      <div id="team">
+      {/*<div id="team">
         <br />
         <TeamSection />
-      </div>
+      </div> */}
 
       <TweetFeed />
 
