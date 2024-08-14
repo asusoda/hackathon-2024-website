@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div className="w-screen flex-col sm:px-14 md:px-40 lg:px-40 xl:px-80 mt-36 sm:mt-56">
       <h1 className="text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo">
-        What is DUHacks ?
+        What is HackSODA ?
       </h1>
       <div className="mt-24 flex flex-col sm:flex-row w-full items-center justify-center gap-5 px-5">
         <div className="basis-1/3 border-2 rounded-2xl w-full p-5 glassy-effect aboutContainer1">
