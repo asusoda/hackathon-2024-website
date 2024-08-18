@@ -77,9 +77,9 @@ const Navbar = (activeSection: any) => {
           </a>
         </div>
         <div className="flex space-x-2">
-        <div className="bg-gray-100  font-medium text-black p-2 mr-2 rounded-lg m-1">
-            <a href="/swag" onClick={handelClick}>Digital Swag</a>
-          </div>
+         {/*<div className="bg-gray-100  font-medium text-black p-2 mr-2 rounded-lg m-1">
+           <a href="/swag" onClick={handelClick}>Digital Swag</a> 
+          </div>*/}
           
           <div className="hidden md:flex flex-wrap gap-5 text-white">
             <div
