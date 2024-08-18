@@ -138,7 +138,7 @@ export default function Home() {
         <TeamSection />
       </div> */}
 
-      <TweetFeed />
+     {/* <TweetFeed /> */}
 
       <div id="faq">
         <br />
