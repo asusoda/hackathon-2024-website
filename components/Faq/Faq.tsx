@@ -3,12 +3,12 @@ import { useState } from "react";
 import { Container } from "./Container";
 import "../../styles/faq/background.css";
 
-const duHacksFaq = [
+const HacksFaq = [
   {
     question: <>Who can participate? 🌐</>,
     answer: (
       <>
-        DUHacks 3.0 is open to a diverse range of participants, including
+        HackSODA 24 is open to a diverse range of participants, including
         students, professionals, and individuals with varying skill levels.
         Whether you are a beginner or an experienced developer, despite the
         field of academic discipline chosen, you are eligible to join us! 🚀
@@ -19,7 +19,7 @@ const duHacksFaq = [
     question: <>What if this is my first hackathon? </>,
     answer: (
       <>
-        Congratulations on considering your first hackathon! DUHacks 3.0 is a
+        Congratulations on considering your first hackathon! HackSODA 24 is a
         great opportunity for beginners. We would be having expert sessions,
         guidance by mentors along the way to help you out in executing your
         ideas into projects. See you in the hackathon! 🤖
@@ -41,36 +41,24 @@ const duHacksFaq = [
   {
     question: (
       <>
-        As the hackathon is in hybrid mode, who is allowed to participate in offline mode? 
+        For the participants, will travel reimbursement be provided? 
       </>
     ),
     answer: (
       <>
-        Only selected students from DDU are permitted for offline participation. Participants from any other locations are not allowed.🚫
+        No, HackSODA 24 does not offer travel reimbursement for participants. Participants are responsible for their travel expenses, and we recommend planning accordingly.
       </>
     ),
   },
   {
     question: (
       <>
-        For the participants in offline mode, will travel reimbursement be provided? 
+        Will everyone from ASU be eligible for participation, or is there a selection process? 
       </>
     ),
     answer: (
       <>
-        No, DUHacks 3.0 does not offer travel reimbursement for participants in offline mode. Participants are responsible for their travel expenses, and we recommend planning accordingly.
-      </>
-    ),
-  },
-  {
-    question: (
-      <>
-        Will everyone from DDU be eligible for offline tickets, or is there a selection process? 
-      </>
-    ),
-    answer: (
-      <>
-        Not everyone from DDU will receive offline tickets for DUHacks3.O. The selection process involves a shortlisting of participants based on specific criteria, such as performance, engagement, and commitment. Eligible individuals will be notified in advance.😊
+        TBD. Eligible individuals will be notified in advance.😊
       </>
     ),
   },
@@ -87,7 +75,7 @@ const duHacksFaq = [
     question: <>Are team members from other colleges allowed? </>,
     answer: (
       <>
-        Yes, DUHacks 3.0 welcomes participants from diverse backgrounds,
+        Yes, HackSODA 24 welcomes participants from diverse backgrounds,
         including those from different colleges. The hackathon encourages
         collaboration and networking among individuals with varied experiences
         and expertise. 🌍
@@ -95,10 +83,10 @@ const duHacksFaq = [
     ),
   },
   {
-    question: <>What will I get after attending DUHacks 3.0? 🏆</>,
+    question: <>What will I get after attending HackSODA 24? 🏆</>,
     answer: (
       <>
-        DUHacks 3.0 offers a dynamic platform for learning and collaboration.
+        HackSODA 24 offers a dynamic platform for learning and collaboration.
         Engage in workshops, network with industry professionals, and develop
         hands-on projects. Gain exposure to cutting-edge technologies, enhance
         problem-solving skills, and compete for prizes. Elevate your resume,
@@ -118,7 +106,7 @@ const duHacksFaq = [
   },
   {
     question: <>Have more questions? 🤔</>,
-    answer: <>Feel free to write to us at gdsc@ddu.ac.in or create a ticket🎫 on <a className="text-blue-400 underline" href="https://discord.gg/T2fzD8c2j2" target="_blank">discord</a>
+    answer: <>Feel free to write to us at asu@thesoda.io or create a ticket🎫 on <a className="text-blue-400 underline" href="https://discord.gg/the-software-developers-association-762811961238618122" target="_blank">discord</a>
     </>,
   },
 ];
@@ -136,7 +124,7 @@ export default function FAQ() {
             </div>
 
             <p className="mt-2 font text-white dark:text-gray-300 ">
-              Join with DUHacks and experience the breeze of hackathon with us.
+              Join HackSODA and experience the breeze of hackathon with us.
             </p>
             <div className="faqContainer1 relative">
               {/* <div className="flex justify-center"> */}
@@ -169,7 +157,7 @@ export function Disclosures({ full = false }) {
 
   return (
     <div className="divide-y divide-zinc-200 border-y border-zinc-200 dark:divide-zinc-800 dark:border-zinc-800">
-      {duHacksFaq.map((item, i) => (
+      {HacksFaq.map((item, i) => (
         <div
           key={String(i)}
           className={`mx-auto text-lg ${full ? "" : "max-w-2xl"}`}
