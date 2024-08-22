@@ -1,0 +1,55 @@
+.frame {
+    background: url('/frame/FRAME2.png') no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 87px;
+    
+    /* border-radius: 2%; */
+}
+
+.innerFrame {
+    width: 180px;
+    height: 180px;
+
+    border-radius: 5%;
+    margin:  auto;
+}
+
+
+
+.userText {
+    position: absolute;
+    top: 340px;
+    /* left: 50%; */
+    /* font-size: 25px; */
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    
+    .frame{
+        width: 300px;
+        height: 300px;
+        padding: 95px;
+        padding-top: 68px;
+
+    }
+
+    .innerFrame{
+        width: 110px;
+        height: 110px;
+    }
+
+    .userText{
+        font-size: 20px;
+        top: 195px;
+    }
+}

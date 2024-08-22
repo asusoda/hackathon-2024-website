@@ -1,0 +1,35 @@
+.themeContainer1 {
+  position: relative;
+  /* width: 500px; */
+  /* height: 420px; */
+  margin: auto; 
+}
+.themeContainer1::before {
+  content: "";
+  position: absolute;
+  top: 250px; 
+  left: 100%;
+  width: 450px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(120, 47, 152);
+  background: linear-gradient(343deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+  filter: blur(240px);
+  z-index: -10;
+}
+
+.themeContainer1::after {
+  content: "";
+  position: absolute;
+  top: 280px; 
+  left: -70%;
+  width: 650px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(120, 47, 152);
+  background: linear-gradient(343deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+  filter: blur(240px);
+  z-index: -10;
+}
+
+

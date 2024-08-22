@@ -1,0 +1,14 @@
+
+
+.card-even {
+    background: rgb(120, 47, 152);
+    background: linear-gradient(343deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+}
+
+.card-odd {
+    background: rgb(120, 47, 152);
+    background: linear-gradient(166deg, rgba(120, 47, 152, 1) 0%, rgba(5, 50, 129, 1) 82%, rgba(52, 39, 100, 1) 100%);
+}
+
+
+

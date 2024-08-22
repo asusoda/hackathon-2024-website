@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.transition-max-height {
+    transition-property: max-height;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .rotate-180 {
+    transition: transform 0.3s ease-in-out;
+  }
