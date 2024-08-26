@@ -1,5 +1,21 @@
 const cardContents = [
 
+  {
+    texts: [
+      "Cash prize of <span class='font-semibold  text-blue-500'>TBD</span>",
+      "TBD",
+    ],
+    textsBack: [
+      "TBD",
+      "TBD",
+      "TBD",
+      "Winners Certificate",
+    ],
+    image:
+      "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/1st%20Place%20Medal.png",
+    imgWidth: 160,
+  },
+
   // second winner prize
   {
     texts: [
@@ -19,21 +35,7 @@ const cardContents = [
 
 
   // first winner prize
-  {
-    texts: [
-      "Cash prize of <span class='font-semibold  text-blue-500'>TBD</span>",
-      "TBD",
-    ],
-    textsBack: [
-      "TBD",
-      "TBD",
-      "TBD",
-      "Winners Certificate",
-    ],
-    image:
-      "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/1st%20Place%20Medal.png",
-    imgWidth: 160,
-  },
+  
 
 
   // 3rd winner prize
