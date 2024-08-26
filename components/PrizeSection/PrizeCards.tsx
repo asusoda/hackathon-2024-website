@@ -28,7 +28,7 @@ const Card = ({
       myMargin = "mt-1";
       break;
     case "2":
-      myMargin = "mt-36";
+      myMargin = "mt-16";
       break;
     default:
       myMargin = "mt-10";

@@ -22,7 +22,7 @@ const tweets = [
 const TweetFeed = () => {
   const [tweetId, setTweetId] = useState(tweets);
   return (
-    <div className=" w-screen mt-36 sm:mt-56 ">
+    <div className=" w-screen mt-16 sm:mt-16 ">
       <h1 className="text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo ">
         Tweet Buzz
       </h1>

@@ -29,7 +29,7 @@ const Pillar: React.FC<{ height: number; bgColor: string; text: string }> = ({
 
 const PrizeSection: React.FC<PrizeSectionProps> = () => {
   return (
-    <div className="mt-36 sm:mt-56">
+    <div className="mt-16 sm:mt-16">
       <h1 className="my-20 text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo">
         Prizes
       </h1>

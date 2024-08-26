@@ -5,7 +5,7 @@ import "../../styles/faq/background.css";
 
 const HacksFaq = [
   {
-    question: <>Who can participate? 🌐</>,
+    question: <>Who can participate? </>,
     answer: (
       <>
         HackSODA 24 is open to a diverse range of participants, including
@@ -83,7 +83,7 @@ const HacksFaq = [
     ),
   },
   {
-    question: <>What will I get after attending HackSODA 24? 🏆</>,
+    question: <>What will I get after attending HackSODA 24? </>,
     answer: (
       <>
         HackSODA 24 offers a dynamic platform for learning and collaboration.
@@ -96,7 +96,7 @@ const HacksFaq = [
     ),
   },
   {
-    question: <> What if I do not have a team?🤔 </>,
+    question: <> What if I do not have a team? </>,
     answer: (
       <>
         We have a great community on Discord. Reach out to other
@@ -105,7 +105,7 @@ const HacksFaq = [
     ),
   },
   {
-    question: <>Have more questions? 🤔</>,
+    question: <>Have more questions? </>,
     answer: <>Feel free to write to us at asu@thesoda.io or create a ticket🎫 on <a className="text-blue-400 underline" href="https://discord.gg/the-software-developers-association-762811961238618122" target="_blank">discord</a>
     </>,
   },
@@ -113,7 +113,7 @@ const HacksFaq = [
 
 export default function FAQ() {
   return (
-    <div className="mt-36 sm:mt-24" id="faq">
+    <div className="mt-16 sm:mt-16" id="faq">
       <Container>
         <div className="mt-32 flex flex-col gap-12 lg:flex-row p-10 ">
           <div className="text-center lg:w-5/12 lg:pl-12 lg:text-left  flex flex-col">

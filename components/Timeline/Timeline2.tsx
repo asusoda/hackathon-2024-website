@@ -36,7 +36,7 @@ useEffect(() => {
   }, [items]);
 
   return (
-    <div className="mt-36 sm:mt-56">
+    <div className="mt-16 sm:mt-16">
       <h1 className="text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo timelineContainer1">
         Schedule
       </h1>

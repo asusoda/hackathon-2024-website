@@ -51,7 +51,7 @@ export default function Themes() {
 
   return (
     <>
-      <h1 className="mt-36 sm:mt-56 text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo">
+      <h1 className="mt-16 sm:mt-16 text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo">
         Themes
       </h1>
             {/* <div className="slider">

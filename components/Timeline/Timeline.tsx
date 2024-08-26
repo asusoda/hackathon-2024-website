@@ -6,7 +6,7 @@ import "../../styles/timeline.css";
 export default function Timeline() {
   return (
     <>
-      <h1 className="mt-36 mb-[-150px]  text-center">Hackathon Schedule</h1>
+      <h1 className="mt-16 mb-[-150px]  text-center">Hackathon Schedule</h1>
       <div className={"mt-28 flex items-center justify-center "}>
         <div className="space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent m-10 ">
           {items.map((item, index) =>

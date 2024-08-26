@@ -39,7 +39,7 @@ function TeamSection() {
 
   return (
     <>
-      <div className="mt-36 sm:mt-40 w-screen">
+      <div className="mt-16 sm:mt-16 w-screen">
         <h1 className="text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo mt-40">
           Team
         </h1>
