@@ -14,12 +14,11 @@
   width: 350px;
   height: 300px;
   border-radius: 50%;
-  background-color: rgb(120, 47, 152);
+  background-color: #4462dc;
   background: linear-gradient(
     343deg,
-    rgba(120, 47, 152, 1) 0%,
-    rgba(5, 50, 129, 1) 82%,
-    rgba(52, 39, 100, 1) 100%
+    #ba3554 0%,
+    #4462dc 100%
   );
   filter: blur(180px);
   z-index: -1;
@@ -33,12 +32,11 @@
   width: 350px;
   height: 300px;
   border-radius: 50%;
-  background-color: rgb(120, 47, 152);
+  background-color: #4462dc;
   background: linear-gradient(
     343deg,
-    rgba(120, 47, 152, 1) 0%,
-    rgba(5, 50, 129, 1) 82%,
-    rgba(52, 39, 100, 1) 100%
+    #4462dc 0%
+    #ba3554 100%,
   );
   filter: blur(220px);
   z-index: -1;
