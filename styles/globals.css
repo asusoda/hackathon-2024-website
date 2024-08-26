@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Nimbus';
-  src: url('/font/TAN-NIMBUS.ttf');
+  font-family: 'Space Grotesk';
+  src: url('../public/font/SpaceGrotesk-VariableFont_wght.ttf');
 }
 
 @font-face {

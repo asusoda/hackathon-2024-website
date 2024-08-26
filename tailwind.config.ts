@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        logo: ["Nimbus", "sans-serif"],
-        content: ["Duhacks", "serif"],
+        logo: ["Space Grotesk", "serif"],
+        content: ["Space Grotesk", "serif"],
         date: ["ShadedFont", "serif"],
         monte: ["Monteserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
