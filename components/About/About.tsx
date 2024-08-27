@@ -52,8 +52,8 @@ const About = () => {
         <div className="basis-1/3 border-2 rounded-2xl w-full p-5 glassy-effect">
           <h1 className="text-4xl my-2 font-semibold orange-logo">
             <CountUp
-              start={1000}
-              end={1700}
+              start={100}
+              end={300}
               duration={4}
               enableScrollSpy={true}
               className="font-bold orange-logo"
