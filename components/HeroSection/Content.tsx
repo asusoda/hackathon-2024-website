@@ -66,7 +66,7 @@ const Content: React.FC = () => {
             variants={childVariants}
             className="md:text-2xl text-2xl text-white font-content font-bold m-1 mb-2"
           >
-            10/05/2024 - 10/06/2024
+            October 5 - 6, 2024
           </motion.div>
           {/* <br /> */}
         </motion.div>
