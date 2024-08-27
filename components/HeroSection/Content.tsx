@@ -73,9 +73,10 @@ const Content: React.FC = () => {
         <motion.p
           variants={childVariants}
           animate="visible"
-          className=" text-white max-w-[360px] font-poppins m-auto md:mt-4 mt-2 md:text-xl"
+          className=" text-white max-w-[360px] m-auto md:mt-4 mt-2 md:text-xl"
+          style={{ fontFamily: 'Space Grotesk' }}
         >
-          HACK FOR A CHANGE !
+          Hack For A Change!
         </motion.p>
       </div>
       <motion.div className="text-md text-white">
