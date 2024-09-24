@@ -58,7 +58,7 @@ export default function SponsorsSection2() {
     ],
     platinum: [    
       {
-      src: "/sponsors_logos/Amazon.svg",
+      src: "/sponsors_logos/amazon.svg",
       alt: "AMAZON LOGO",
       link: "https://amazon.com",
       class: "scale-[0.6] md:scale-[0.6]",
