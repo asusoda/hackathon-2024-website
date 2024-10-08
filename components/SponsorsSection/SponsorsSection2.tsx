@@ -37,12 +37,12 @@ export default function SponsorsSection2() {
          link: "https://www.celsius.com",
          class: "scale-[0.7] md:scale-[0.6]",
        },
-       {
-        src : "/sponsors_logos/mlh.svg",
-        alt: "MLH LOGO",
-        link: "https://mlh.io",
-        class: "scale-[0.7] md:scale-[0.6]",
-      },
+      //  {
+      //   src : "/sponsors_logos/mlh.svg",
+      //   alt: "MLH LOGO",
+      //   link: "https://mlh.io",
+      //   class: "scale-[0.7] md:scale-[0.6]",
+      // },
       {
         src : "/sponsors_logos/es.png",
         alt: "ETHICAL SPECTACLE LOGO",

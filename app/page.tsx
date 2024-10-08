@@ -112,10 +112,10 @@ export default function Home() {
         <About />
       </div>
 
-      <div id="themes">
+      {/* <div id="themes">
         <br />
         <Themes />
-      </div>
+      </div> */}
 
       <div id="schedule">
         <br />
