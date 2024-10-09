@@ -68,29 +68,32 @@ const Content: React.FC = () => {
           >
             October 26 - 27, 2024
           </motion.div>
-          {/* <br /> */}
         </motion.div>
         <motion.p
           variants={childVariants}
           animate="visible"
-          className=" text-white max-w-[360px] m-auto md:mt-4 mt-2 md:text-xl"
+          className="text-white max-w-[360px] m-auto md:mt-4 mt-2 md:text-xl"
           style={{ fontFamily: 'Space Grotesk' }}
         >
           Hack For A Change!
         </motion.p>
       </div>
-      <motion.div className="text-md text-white">
+      <motion.div className="text-md text-white mb-8"> {/* Added margin-bottom for spacing */}
         <CountdownTimer />
       </motion.div>
-      <div className="">
-        <div
-          className="apply-button"
-          data-hackathon-slug="duhacks3"
-          data-button-theme="dark-inverted"
-        />
+      <div className="!mt-12"> {/* Adjusted margin-top if needed */}
+        <a
+          href="https://forms.gle/BSGxRhG26FGhHPd3A"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg hover:bg-red-700 transition-colors duration-300"
+        >
+          Register for Hackathon
+        </a>
       </div>
     </motion.div>
   );
+  
 };
 
 export default Content;
