@@ -66,25 +66,18 @@ const About = () => {
       <div className="flex flex-col sm:flex-row w-full items-center justify-center gap-5 px-5 mt-5 container1 container2">
         <div className="basis-1/2 border-2 rounded-2xl sm:h-96 w-full p-5 overflow-y-scroll lg:overflow-auto glassy-effect">
           <p className="text-slate-200 text-lg sm:text-xl sm:mt-3">
-            Getting into a loop of ideas, but finding out where to showcase them? It's time to think big and act fast!💡
-            Start building projects and join us at HackSODA 24! 🛠️
+            Start building projects and join us at Hack SoDA 2024!
             <br />
             <br />
-            HackSODA 24 is a 36-hour national-level hackathon organized by the Software Developers Association Student Club, ASU🌍
+            Hack SoDA 2024 is a 36-hour hackathon organized by the Software Developers Association at ASU.
             <br />
             <br />
             This event provides a platform for passionate developers, designers, and enthusiasts to come together and
             transform their ideas into reality.
-            It's not just an opportunity to showcase technical skills; it's a chance to network, learn, and have a
-            memorable time with like-minded individuals.🤝
             <br />
             <br />
-            <span className="font-bold">
-              Your keyboard is your sword, your idea is your challenge, code is your vision, and HackSODA 24 is your stage! 🚨
-            </span>
-            <br />
-            <br />
-            See you all at the hackathon!🔍💻
+            Whether you've been to tons of hackathons or you're thinking about attending your first, Hack SoDA would love to have you.
+            Join us for a weekend of learning, building, and fun!
           </p>
         </div>
         <div className="basis-1/2 border-2 h-96 rounded-2xl w-full p-4 sm:h-96 glassy-effect">
