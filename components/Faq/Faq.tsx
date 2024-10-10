@@ -119,23 +119,13 @@ export default function FAQ() {
           <div className="text-center lg:w-5/12 lg:pl-12 lg:text-left  flex flex-col">
             <div className="my-8 text-white text-xl sm:text-2xl md:text-4xl">
               <h2 className="text-2xl font-bold text-white dark:text-white md:text-3xl lg:text-4xl font-logo">
-                Have a query ?
+                Frequently Asked Questions
               </h2>
             </div>
 
-            <p className="font text-white dark:text-gray-300 mb-6">
-              Join HackSODA and experience the breeze of hackathon with us.
-            </p>
             <div className="faqContainer1 relative">
               {/* <div className="flex justify-center"> */}
 
-              <img
-                src="/assets/images/teddy.png"
-                alt="faq boy"
-                width={250}
-                height={250}
-                className="object-contain"
-              />
               {/* </div> */}
             </div>
           </div>
