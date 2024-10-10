@@ -8,7 +8,7 @@ const HacksFaq = [
     question: <>Who can participate? </>,
     answer: (
       <>
-        HackSODA 24 is open to a diverse range of participants, including
+        Hack SoDA 2024 is open to a diverse range of participants, including
         students, professionals, and individuals with varying skill levels.
         Whether you are a beginner or an experienced developer, despite the
         field of academic discipline chosen, you are eligible to join us! 🚀
@@ -19,7 +19,7 @@ const HacksFaq = [
     question: <>What if this is my first hackathon? </>,
     answer: (
       <>
-        Congratulations on considering your first hackathon! HackSODA 24 is a
+        Congratulations on considering your first hackathon! Hack SoDA 2024 is a
         great opportunity for beginners. We would be having expert sessions,
         guidance by mentors along the way to help you out in executing your
         ideas into projects. See you in the hackathon! 🤖
@@ -46,7 +46,7 @@ const HacksFaq = [
     ),
     answer: (
       <>
-        No, HackSODA 24 does not offer travel reimbursement for participants. Participants are responsible for their travel expenses, and we recommend planning accordingly.
+        No, Hack SoDA 24 does not offer travel reimbursement for participants. Participants are responsible for their travel expenses, and we recommend planning accordingly.
       </>
     ),
   },
@@ -75,7 +75,7 @@ const HacksFaq = [
     question: <>Are team members from other colleges allowed? </>,
     answer: (
       <>
-        Yes, HackSODA 24 welcomes participants from diverse backgrounds,
+        Yes, Hack SoDA 2024 welcomes participants from diverse backgrounds,
         including those from different colleges. The hackathon encourages
         collaboration and networking among individuals with varied experiences
         and expertise. 🌍
@@ -83,10 +83,10 @@ const HacksFaq = [
     ),
   },
   {
-    question: <>What will I get after attending HackSODA 24? </>,
+    question: <>What will I get after attending Hack SoDA 2024? </>,
     answer: (
       <>
-        HackSODA 24 offers a dynamic platform for learning and collaboration.
+        Hack SoDA 2024 offers a dynamic platform for learning and collaboration.
         Engage in workshops, network with industry professionals, and develop
         hands-on projects. Gain exposure to cutting-edge technologies, enhance
         problem-solving skills, and compete for prizes. Elevate your resume,

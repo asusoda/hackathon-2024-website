@@ -10,7 +10,7 @@ const items = [
     title: "26th Oct 11:00 AM",
     cardTitle: "Hackathon Opening Ceremony",
     cardDetailedText:
-      "Let's kickoff HackSODA 24 with us !",
+      "Let's kickoff Hack SoDA 2024!",
   },
   {
     key: 2,
