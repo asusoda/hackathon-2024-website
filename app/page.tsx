@@ -128,11 +128,6 @@ export default function Home() {
         <SponsorsSection2/>
       </div>
 
-      <div id="prizes">
-        <br></br>
-        <PrizeSection />
-      </div>
-
       {/*<div id="team">
         <br />
         <TeamSection />
