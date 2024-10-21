@@ -30,32 +30,6 @@ export default function SponsorsSection2() {
   };
   const sponsors: SponsorsGroup = {
     //emerald: [{ src: "/sponsors_logos/Devfolio_Logo-White.svg", alt: "LOGO" }],
-    event:[
-       {
-         src : "/sponsors_logos/celsius.svg",
-         alt: "CELSIUS LOGO",
-         link: "https://www.celsius.com",
-         class: "scale-[0.7] md:scale-[0.6]",
-       },
-      //  {
-      //   src : "/sponsors_logos/mlh.svg",
-      //   alt: "MLH LOGO",
-      //   link: "https://mlh.io",
-      //   class: "scale-[0.7] md:scale-[0.6]",
-      // },
-      /*{
-        src : "/sponsors_logos/es.png",
-        alt: "ETHICAL SPECTACLE LOGO",
-        link: "https://ethicalspectacle.org",
-        class: "scale-[0.7] md:scale-[0.5]",
-      }, */
-      {
-        src : "/sponsors_logos/Quant.png",
-        alt: "QUANT QUESTIONS LOGO",
-        link: "https://quantquestions.io",
-        class: "scale-[0.4] md:scale-[0.3]",
-      }
-    ],
     platinum: [    
       {
       src: "/sponsors_logos/amazon.svg",
@@ -63,28 +37,103 @@ export default function SponsorsSection2() {
       link: "https://amazon.com",
       class: "scale-[0.6] md:scale-[0.6]",
     },
+    {
+      src: "/sponsors_logos/statefarmm.png",
+      alt: "STATEFARM LOGO",
+      link: "https://www.statefarm.com",
+      class: "scale-[0.5] md:scale-[0.5]",
+    },
+    {
+      src: "/sponsors_logos/OH.png",
+      alt: "OPPORTUNITY HACKS LOGO ",
+      link: "https://www.ohack.org",
+      class: "scale-[0.6] md:scale-[0.6]",
+    },
+    {
+      src: "/sponsors_logos/viasat.svg",
+      alt: "VIASAT LOGO",
+      link: "https://www.viasat.com",
+      class: "scale-[1.3] md:scale-[2.4]",
+    },
+    {
+      src: "/sponsors_logos/sn.png",
+      alt: "SERVICENOW LOGO",
+      link: "https://www.servicenow.com",
+      class: "scale-[0.75] md:scale-[0.85]",
+    },
   ],
     gold: [
       {
-        src: "/sponsors_logos/statefarmm.png",
-        alt: "STATEFARM LOGO",
-        link: "https://www.statefarm.com",
-        class: "scale-[0.4] md:scale-[0.4]",
+        src: "/sponsors_logos/AXP.svg",
+        alt: "AMERICAN EXPRESS LOGO",
+        link: "https://www.americanexpress.com",
+        class: "scale-[0.3] md:scale-[0.25]",
+      },
+      {
+        src: "/sponsors_logos/GS.svg",
+        alt: "GOLDMAN SACHS LOGO",
+        link: "https://www.goldmansachs.com",
+        class: "scale-[0.3] md:scale-[0.25]",
+      },
+      {
+        src: "/sponsors_logos/SBUX.svg",
+        alt: "STARBUCKS LOGO",
+        link: "https://www.starbucks.com",
+        class: "scale-[0.3] md:scale-[0.25]",
+      },
+      {
+        src: "/sponsors_logos/GDDY_BIG.D.svg",
+        alt: "GODADDY LOGO",
+        link: "https://www.godaddy.com",
+        class: "scale-[0.5] md:scale-[0.50]",
       },
     ],
+    event:[
+      {
+        src : "/sponsors_logos/Quant.png",
+        alt: "QUANT QUESTIONS LOGO",
+        link: "https://quantquestions.io",
+        class: "scale-[0.25] md:scale-[0.3]",
+      },
+      {
+        src : "/sponsors_logos/sunhacks.png",
+        alt: "SUNHACKS LOGO",
+        link: "https://sunhacks.io",
+        class: "scale-[0.25] md:scale-[0.3]",
+      },
+      {
+        src : "/sponsors_logos/celsius.svg",
+        alt: "CELSIUS LOGO",
+        link: "https://www.celsius.com",
+        class: "scale-[0.5] md:scale-[0.6]",
+      },
+     /* 
+       {
+        src : "/sponsors_logos/mlh.svg",
+        alt: "MLH LOGO",
+        link: "https://mlh.io",
+        class: "scale-[0.7] md:scale-[0.6]",
+      },
+     {
+       src : "/sponsors_logos/es.png",
+       alt: "ETHICAL SPECTACLE LOGO",
+       link: "https://ethicalspectacle.org",
+       class: "scale-[0.7] md:scale-[0.5]",
+     }, */
+   ],
     /*silver: [],*/ // Use this commented section if there is a category for silver sponsors
     /*bronze: [],*/ // Use this commented section if there is a category for bronze sponsors
   };
 
   const categorySizes: { [key: string]: CategorySize } = {
-    event: { imgSize: "h-[130px] w-[300px]  md:px-8 px-4 py-1 md:h-[200px] md:w-[600px] " },
+    platinum: { imgSize: "h-[130px] w-[300px]  md:px-8 px-4 py-1 md:h-[200px] md:w-[600px] " },
 
     emerald: { imgSize: "w-48 h-16 sm:h-full sm:w-full" },
     diamond: { imgSize: "w-48 h-16 sm:h-full sm:w-full" },
-    platinum: {
+    gold: {
       imgSize: "h-[120px] w-[250px] px-2 py-1 md:h-[160px] md:w-[500px]",
     },
-    gold: {
+    event: {
       imgSize: "h-[80px] w-[250px] px-2 py-1 md:h-[140px] md:w-[420px]",
     },
     silver: {
