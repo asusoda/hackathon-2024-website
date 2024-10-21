@@ -72,16 +72,18 @@ const Content: React.FC = () => {
         <motion.p
           variants={childVariants}
           animate="visible"
-          className="text-white max-w-[360px] m-auto md:mt-4 mt-2 md:text-xl"
+          className="text-white max-w-[360px] m-auto md:mt-4 mt-2 text-xs md:text-sm"
           style={{ fontFamily: 'Space Grotesk' }}
         >
-          Hack For A Change!
+          <a href ="https://maps.app.goo.gl/9XUDu4uFKyNEWxvX9" target="_blank" rel="noopener noreferrer">
+          Memorial Union Arizona Ballroom (2nd Floor) 301 E Orange St., Tempe, AZ
+          </a>
         </motion.p>
       </div>
       <motion.div className="text-md text-white mb-8"> {/* Added margin-bottom for spacing */}
         <CountdownTimer />
       </motion.div>
-      <div className="!mt-12"> {/* Adjusted margin-top if needed */}
+      <div className="!mt-10"> {/* Adjusted margin-top if needed */}
         <a
           href="https://forms.gle/BSGxRhG26FGhHPd3A"
           target="_blank"
