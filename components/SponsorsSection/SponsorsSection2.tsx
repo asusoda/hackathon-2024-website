@@ -43,12 +43,12 @@ export default function SponsorsSection2() {
       //   link: "https://mlh.io",
       //   class: "scale-[0.7] md:scale-[0.6]",
       // },
-      {
+      /*{
         src : "/sponsors_logos/es.png",
         alt: "ETHICAL SPECTACLE LOGO",
         link: "https://ethicalspectacle.org",
         class: "scale-[0.7] md:scale-[0.5]",
-      },
+      }, */
       {
         src : "/sponsors_logos/Quant.png",
         alt: "QUANT QUESTIONS LOGO",
