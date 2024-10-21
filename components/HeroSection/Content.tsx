@@ -60,7 +60,7 @@ const Content: React.FC = () => {
             variants={childVariants}
             className="md:text-4xl text-3xl text-white tracking-wider font-logo font-extrabold m-1 mb-2"
           >
-            HackSoDA 24
+            Hack SoDA 24
           </motion.div>
           <motion.div
             variants={childVariants}

@@ -34,13 +34,13 @@ const About = () => {
             />
             +
           </h1>
-          <p className="text-slate-200">Themes</p>
+          <p className="text-slate-200">Prize categories</p>
         </div>
         <div className="basis-1/3 border-2 rounded-2xl w-full p-5 glassy-effect">
           <h1 className="text-4xl my-2 font-semibold text-rose-500">
             <CountUp
               start={0}
-              end={36}
+              end={30}
               duration={4}
               className="font-bold text-rose-500"
               enableScrollSpy={true}

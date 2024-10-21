@@ -104,14 +104,14 @@ const Navbar = (activeSection: any) => {
             >
               <a href="#sponsors">Sponsors</a>
             </div>
-            <div
+            {/*<div
               className={`nav-titles nav-titles-ltr ${
                 activeSection === "prizes" ? "before:w-full" : ""
               } `}
             >
               <a href="#prizes">Prizes</a>
             </div>
-            {/*<div
+            <div
               className={`nav-titles nav-titles-ltr ${
                 activeSection === "team" ? "before:w-full" : ""
               } `}

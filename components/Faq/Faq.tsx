@@ -58,7 +58,19 @@ const HacksFaq = [
     ),
     answer: (
       <>
-        TBD. Eligible individuals will be notified in advance.😊
+        Everyone from ASU is eligible, as long as we don't reach the venue's maximum capacity. 😊
+      </>
+    ),
+  },
+  {
+    question: (
+      <>
+        Will there be arrangements for staying over night? 
+      </>
+    ),
+    answer: (
+      <>
+      Unfortunately, we won't be able to provide arrangements for any overnight stays. Please ensure you have a place to stay for the night.
       </>
     ),
   },
