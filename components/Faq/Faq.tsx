@@ -58,7 +58,7 @@ const HacksFaq = [
     ),
     answer: (
       <>
-        Everyone from ASU is eligible, as long as we don't reach the venue's maximum capacity. 😊
+        Every student from ASU is eligible, as long as we don't reach the venue's maximum capacity. 😊
       </>
     ),
   },
