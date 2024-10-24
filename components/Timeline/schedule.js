@@ -2,7 +2,7 @@ const items = [
   {
     key: 0,
     title: "26th Oct 10:00 AM",
-    cardTitle: "Day 1: Check-in & Breakfast",
+    cardTitle: "Day 1: Check-in",
     cardDetailedText: "Check-in and get ready for the event.",
   },
   {
