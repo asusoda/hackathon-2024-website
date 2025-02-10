@@ -60,13 +60,13 @@ const Content: React.FC = () => {
             variants={childVariants}
             className="md:text-4xl text-3xl text-white tracking-wider font-logo font-extrabold m-1 mb-2"
           >
-            Hack SoDA 24
+            Code Challenge XI
           </motion.div>
           <motion.div
             variants={childVariants}
             className="md:text-2xl text-2xl text-white font-content font-bold m-1 mb-2"
           >
-            October 26 - 27, 2024
+            February 23 <br />10 AM - 6 PM, 2025
           </motion.div>
         </motion.div>
         <motion.p
@@ -76,7 +76,7 @@ const Content: React.FC = () => {
           style={{ fontFamily: 'Space Grotesk' }}
         >
           <a href ="https://maps.app.goo.gl/9XUDu4uFKyNEWxvX9" target="_blank" rel="noopener noreferrer">
-          Memorial Union Arizona Ballroom (2nd Floor) 301 E Orange St., Tempe, AZ
+          Memorial Union Arizona Ventana <br /> (2nd Floor) 301 E Orange St., Tempe, AZ
           </a>
         </motion.p>
       </div>
@@ -85,12 +85,12 @@ const Content: React.FC = () => {
       </motion.div>
       <div className="!mt-10"> {/* Adjusted margin-top if needed */}
         <a
-          href="https://forms.gle/BSGxRhG26FGhHPd3A"
+          href="https://asu.campuslabs.com/engage/event/10869143"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg hover:bg-red-700 transition-colors duration-300"
         >
-          Register for Hackathon
+          Register
         </a>
       </div>
     </motion.div>

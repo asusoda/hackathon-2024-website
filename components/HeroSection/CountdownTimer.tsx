@@ -33,7 +33,7 @@ const CountdownTimer = () => {
   };
 
   useEffect(() => {
-    const endDate = new Date("2024-10-26T17:00:00Z"); // UTC time equivalent to October 26, 10 AM MST
+    const endDate = new Date("2025-02-23T17:00:00Z"); // UTC time equivalent to October 26, 10 AM MST
     const intervalId = setInterval(() => {
       calculateTimeRemaining(endDate);
     }, 1000);
