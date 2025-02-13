@@ -10,7 +10,7 @@ const About = () => {
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: false });
   const controls = useAnimation();
-  
+
   useEffect(() => {
     if (isInView) {
       controls.start("visible");
@@ -66,20 +66,26 @@ const About = () => {
       <div className="flex flex-col sm:flex-row w-full items-center justify-center gap-5 px-5 mt-5 container1 container2">
         <div className="basis-1/2 border-2 rounded-2xl sm:h-96 w-full p-5 overflow-y-scroll lg:overflow-auto glassy-effect">
           <p className="text-slate-200 text-lg sm:text-xl sm:mt-3">
-            Start building projects and join us at Hack SoDA 2024!
+            Get ready for SoDA's 10th Annual Code Challenge this Spring!
             <br />
             <br />
-            Hack SoDA 2024 is a 24-hour hackathon organized by the Software Developers Association at ASU.
+            Put your problem solving and coding skills to the test in this
+            3-hour in-person competition on Sunday, April 7 (11:00 AM - 2:00
+            PM). Open to all ASU students with separate prize pools for
+            undergrads and grads.
             <br />
             <br />
-            This event provides a platform for passionate developers, designers, and enthusiasts to come together and
-            transform their ideas into reality.
+            Compete individually using any HackerRank-supported language under
+            proctored conditions. Internet access allowed for reference only -
+            no AI assistance or collaboration permitted.
             <br />
             <br />
-            Whether you've been to tons of hackathons or you're thinking about attending your first, Hack SoDA would love to have you.
-            Join us for a weekend of learning, building, and fun!
+            Win prizes like Nintendo Switches, VR headsets, and headphones while
+            demonstrating your coding prowess in algorithm design, memory
+            efficiency, and optimal execution!
           </p>
         </div>
+
         <div className="basis-1/2 border-2 h-96 rounded-2xl w-full p-4 sm:h-96 glassy-effect">
           <motion.div
             ref={ref}
