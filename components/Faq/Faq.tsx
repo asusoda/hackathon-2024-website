@@ -3,123 +3,108 @@ import { useState } from "react";
 import { Container } from "./Container";
 import "../../styles/faq/background.css";
 
-const HacksFaq = [
+const CodeChallengeFaq = [
   {
-    question: <>Who can participate? </>,
+    question: <>Who can participate?</>,
     answer: (
       <>
-        Hack SoDA 2024 is open to a diverse range of participants, including
-        students, professionals, and individuals with varying skill levels.
-        Whether you are a beginner or an experienced developer, despite the
-        field of academic discipline chosen, you are eligible to join us! 🚀
+        The competition is open to all actively-enrolled ASU students (undergrad and grad) 
+        with at least 1 credit hour. This is an individual competition - no teams allowed.
       </>
     ),
   },
   {
-    question: <>What if this is my first hackathon? </>,
+    question: <>What programming languages can I use?</>,
     answer: (
       <>
-        Congratulations on considering your first hackathon! Hack SoDA 2024 is a
-        great opportunity for beginners. We would be having expert sessions,
-        guidance by mentors along the way to help you out in executing your
-        ideas into projects. See you in the hackathon! 🤖
+        You may use any language supported by HackerRank's platform. Bonus categories 
+        available for esoteric and legacy language implementations.
       </>
     ),
   },
   {
-    question: (
-      <>
-        Do I need to pay a registration fee to participate in the hackathon? 
-      </>
-    ),
+    question: <>Are there any participation fees?</>,
     answer: (
       <>
-        No. There is no registration fee for participating in the hackathon. This approach ensures that creativity and innovation can flourish without restrictions, allowing participants to immerse themselves in a collaborative and dynamic environment.🌐✨
+        No registration fees - completely free to participate. Just bring your ASU ID 
+        and coding skills!
       </>
     ),
   },
   {
-    question: (
-      <>
-        For the participants, will travel reimbursement be provided? 
-      </>
-    ),
+    question: <>What resources are allowed during competition?</>,
     answer: (
       <>
-        No, Hack SoDA 24 does not offer travel reimbursement for participants. Participants are responsible for their travel expenses, and we recommend planning accordingly.
+        Limited internet access permitted for reference documentation only. Strictly 
+        prohibited: AI code generation, pre-written code, and external communication.
       </>
     ),
   },
   {
-    question: (
-      <>
-        Will everyone from ASU be eligible for participation, or is there a selection process? 
-      </>
-    ),
+    question: <>How are submissions judged?</>,
     answer: (
       <>
-        Every student from ASU is eligible, as long as we don't reach the venue's maximum capacity. 😊
+        Solutions evaluated on:<br />
+        • Test case success rate (primary)<br />
+        • Memory/time efficiency<br />
+        • Last submission timestamp for ties
       </>
     ),
   },
   {
-    question: (
-      <>
-        Will there be arrangements for staying over night? 
-      </>
-    ),
+    question: <>What's the competition format?</>,
     answer: (
       <>
-      Unfortunately, we won't be able to provide arrangements for any overnight stays. Please ensure you have a place to stay for the night.
+        3-hour in-person event with proctored environment. Problems increase in 
+        difficulty with points awarded per completed challenge.
       </>
     ),
   },
   {
-    question: <>What should be the team size? </>,
+    question: <>What prizes are available?</>,
     answer: (
       <>
-        The team size can range from a minimum of 1 participant to a maximum of
-        4 participants. 🤝
+        Separate undergraduate/graduate pools with:<br />
+        • Nintendo Switch/Meta Quest/Beats headphones<br />
+        • Special categories for lowerclassmen and unique language use<br />
+        • Gift cards for various winners
       </>
     ),
   },
   {
-    question: <>Are team members from other colleges allowed? </>,
+    question: <>What are the prohibited actions?</>,
     answer: (
       <>
-        Yes, Hack SoDA 2024 welcomes participants from diverse backgrounds,
-        including those from different colleges. The hackathon encourages
-        collaboration and networking among individuals with varied experiences
-        and expertise. 🌍
+        Strictly forbidden:<br />
+        • Collaboration or external help<br />
+        • Plagiarism/pre-written code<br />
+        • AI-generated solutions<br />
+        • Multiple accounts usage
       </>
     ),
   },
   {
-    question: <>What will I get after attending Hack SoDA 2024? </>,
+    question: <>What time does it start?</>,
     answer: (
       <>
-        Hack SoDA 2024 offers a dynamic platform for learning and collaboration.
-        Engage in workshops, network with industry professionals, and develop
-        hands-on projects. Gain exposure to cutting-edge technologies, enhance
-        problem-solving skills, and compete for prizes. Elevate your resume,
-        build lasting connections, and join a vibrant community of innovators in
-        this national-level hackathon. 🚀
+        Sunday, April 7 from 11:00 AM to 2:00 PM. Registration closes at start time - 
+        arrive early for check-in.
       </>
     ),
   },
   {
-    question: <> What if I do not have a team? </>,
+    question: <>What should I bring?</>,
     answer: (
       <>
-        We have a great community on Discord. Reach out to other
-        innovators, collaborate, communicate, and make things possible! 🤝
+        • ASU ID<br />
+        • Laptop with power cord<br />
+        • No external monitors permitted
       </>
     ),
   },
   {
-    question: <>Have more questions? </>,
-    answer: <>Feel free to write to us at asu@thesoda.io or create a ticket🎫 on <a className="text-blue-400 underline" href="https://discord.gg/the-software-developers-association-762811961238618122" target="_blank">discord</a>
-    </>,
+    question: <>Have more questions?</>,
+    answer: <>Contact us at asu@thesoda.io or ask in our <a className="text-blue-400 underline" href="https://discord.gg/the-software-developers-association-762811961238618122" target="_blank">Discord</a></>,
   },
 ];
 
@@ -131,15 +116,10 @@ export default function FAQ() {
           <div className="text-center lg:w-5/12 lg:pl-12 lg:text-left  flex flex-col">
             <div className="my-8 text-white text-xl sm:text-2xl md:text-4xl">
               <h2 className="text-2xl font-bold text-white dark:text-white md:text-3xl lg:text-4xl font-logo">
-                Frequently Asked Questions
+                Competition Guidelines
               </h2>
             </div>
-
-            <div className="faqContainer1 relative">
-              {/* <div className="flex justify-center"> */}
-
-              {/* </div> */}
-            </div>
+            <div className="faqContainer1 relative"></div>
           </div>
           <div className="lg:w-7/12 ">
             <Disclosures />
@@ -159,13 +139,12 @@ export function Disclosures({ full = false }) {
 
   return (
     <div className="divide-y divide-zinc-200 border-y border-zinc-200 dark:divide-zinc-800 dark:border-zinc-800">
-      {HacksFaq.map((item, i) => (
+      {CodeChallengeFaq.map((item, i) => (
         <div
           key={String(i)}
           className={`mx-auto text-lg ${full ? "" : "max-w-2xl"}`}
         >
-          {/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
-<div
+          <div
             className="flex w-full items-start justify-between py-6 text-left text-gray-400"
             onClick={() => handleToggle(i)}
           >
@@ -173,8 +152,7 @@ export function Disclosures({ full = false }) {
               {item.question}
             </span>
             <span className="ml-6 flex h-7 items-center">
-              {/* rome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
-<svg
+              <svg
                 className={`arrow-down h-6 w-6 transform duration-300 ${
                   openIndex === i ? "rotate-180" : "rotate-0"
                 }`}

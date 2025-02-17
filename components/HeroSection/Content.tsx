@@ -66,7 +66,7 @@ const Content: React.FC = () => {
             variants={childVariants}
             className="md:text-2xl text-2xl text-white font-content font-bold m-1 mb-2"
           >
-            February 23 <br />10 AM - 6 PM, 2025
+            March 1 <br />10 AM - 6 PM, 2025
           </motion.div>
         </motion.div>
         <motion.p
@@ -85,7 +85,7 @@ const Content: React.FC = () => {
       </motion.div>
       <div className="!mt-10"> {/* Adjusted margin-top if needed */}
         <a
-          href="https://asu.campuslabs.com/engage/event/10869143"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSejSLKBFkya1mOxMMCgqMSgEmMHHnMM4r6_bZMjd7HYaUoauQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg hover:bg-red-700 transition-colors duration-300"
