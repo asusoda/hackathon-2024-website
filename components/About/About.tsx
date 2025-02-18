@@ -40,7 +40,7 @@ const About = () => {
           <h1 className="text-4xl my-2 font-semibold text-rose-500">
             <CountUp
               start={0}
-              end={30}
+              end={3}
               duration={4}
               className="font-bold text-rose-500"
               enableScrollSpy={true}
@@ -66,11 +66,11 @@ const About = () => {
       <div className="flex flex-col sm:flex-row w-full items-center justify-center gap-5 px-5 mt-5 container1 container2">
         <div className="basis-1/2 border-2 rounded-2xl sm:h-96 w-full p-5 overflow-y-scroll lg:overflow-auto glassy-effect">
           <p className="text-slate-200 text-lg sm:text-xl sm:mt-3">
-            Get ready for SoDA's 10th Annual Code Challenge this Spring!
+            Get ready for SoDA's 11th Annual Code Challenge this Spring!
             <br />
             <br />
             Put your problem solving and coding skills to the test in this
-            3-hour in-person competition on Sunday, April 7 (11:00 AM - 2:00
+            3-hour in-person competition on Sunday, March 1 (10:00 AM - 4:00
             PM). Open to all ASU students with separate prize pools for
             undergrads and grads.
             <br />
