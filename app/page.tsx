@@ -19,6 +19,7 @@ import About from "@/components/About/About";
 import LoadingScreen from "@/components/LoadingScreen";
 import SponsorsSection2 from "@/components/SponsorsSection/SponsorsSection2";
 
+
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home");
 
