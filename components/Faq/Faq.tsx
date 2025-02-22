@@ -64,7 +64,7 @@ const CodeChallengeFaq = [
     question: <>What prizes are available?</>,
     answer: (
       <>
-        Separate undergraduate/graduate pools with:<br />
+        Separate undergraduate/graduate pools with:<br /> 
         • Nintendo Switch/Meta Quest/Beats headphones<br />
         • Special categories for lowerclassmen and unique language use<br />
         • Gift cards for various winners
@@ -87,7 +87,7 @@ const CodeChallengeFaq = [
     question: <>What time does it start?</>,
     answer: (
       <>
-        Sunday, April 7 from 11:00 AM to 2:00 PM. Registration closes at start time - 
+        Saturday, March 1 from 10:00 AM to 6:00 PM. Registration closes at start time - 
         arrive early for check-in.
       </>
     ),
