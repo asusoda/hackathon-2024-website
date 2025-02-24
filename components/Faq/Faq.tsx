@@ -9,7 +9,7 @@ const CodeChallengeFaq = [
     answer: (
       <>
         The competition is open to all actively-enrolled ASU students (undergrad and grad) 
-        with at least 1 credit hour. This is an individual competition - no teams allowed.
+        with at least 1 credit hour. This is an individual competition - teams of 3 are allowed.
       </>
     ),
   },
