@@ -58,7 +58,7 @@ const cardContents = [
   //all participants
   {
     texts: [
-      "All participate will get Code Challenge XI 24 certificates",
+      "All participate will get Code Challenge XI 25 certificates",
       "To all participants will have TBD",
     ],
     textsBack: [
@@ -183,7 +183,7 @@ const cardContents2 = [
   //all participants
   {
     texts: [
-      "All participate will get Code Challenge XI 24 certificates",
+      "All participate will get Code Challenge XI 25 certificates",
       "To all participants will have TBD",
     ],
     textsBack: [

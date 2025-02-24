@@ -1,12 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-
 import "@/styles/navbar.css";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
-import { WiStormShowers } from "react-icons/wi";
 
 const Navbar2 = (activeSection: any) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,15 +24,12 @@ const Navbar2 = (activeSection: any) => {
   }, [isOpen, activeSection]);
 
   useEffect(() => {
-    // Handle changes to activeSection during scroll events
-    // console.log("Active Section during scroll:", activeSection);
   }, [activeSection]);
 
-  function toggleDropdown(event : any) {
-    // event.preventDefault();
+  function toggleDropdown(event: any) {
     setIsOpen(!isOpen);
 
-    if( !isOpenMenu ) {
+    if (!isOpenMenu) {
       setTimeout(() => {
         setIsOpenMenu(!isOpenMenu);
       }, 500);
@@ -43,7 +37,6 @@ const Navbar2 = (activeSection: any) => {
       setIsOpenMenu(!isOpenMenu);
     }
   }
-
 
   return (
     <section id="nav" className="mb-36">
@@ -53,7 +46,9 @@ const Navbar2 = (activeSection: any) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 2000 }}
           transition={{ duration: 0.5 }}
-          className={"nav flex py-8 glassy-effect border-top mt-24 rounded-t-2xl h-screen w-screen fixed md:hidden"}
+          className={
+            "nav flex py-8 glassy-effect border-top mt-24 rounded-t-2xl h-screen w-screen fixed md:hidden"
+          }
         />
       )}
       <div className="nav flex py-8 glassy-effect">
@@ -71,7 +66,8 @@ const Navbar2 = (activeSection: any) => {
           <div className="hidden md:flex flex-wrap gap-5 text-white">
             <div
               className={`nav-titles nav-titles-ltr ${
-activeSection === "about" ? "before:w-full bg-red-500" : "" }`}
+                activeSection === "about" ? "before:w-full bg-red-500" : ""
+              }`}
             >
               <a href="https://duhacks.tech/#about">About</a>
             </div>
@@ -135,10 +131,10 @@ activeSection === "about" ? "before:w-full bg-red-500" : "" }`}
             transition={{ duration: 0.5 }}
             className="xl:hidden nav-dropdown rounded-t-2xl bg-transparent md:hidden"
           >
-            <h1 className="-mt-40 mb-10 text-sm flex gap-2 items-center"/>
-              {/* <WiStormShowers className="text-2xl" /> */}
-              {/* duhacks | gdsc */}
-            
+            <h1 className="-mt-40 mb-10 text-sm flex gap-2 items-center" />
+            {/* <WiStormShowers className="text-2xl" /> */}
+            {/* duhacks | gdsc */}
+
             <a
               href="https://duhacks.tech/#about"
               className="nav-dropdown-titles hover:scale-20"

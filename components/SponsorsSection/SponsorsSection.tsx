@@ -8,6 +8,7 @@ function SponsorsSection() {
   const gold = [
     { src: "/sponsors_logos/Devfolio_Logo-White.svg", alt: "DEVFOLIO LOGO" },
     { src: "/sponsors_logos/Polygon_Logo-White.svg", alt: "POLYGON LOGO" },
+    { src: "/sponsors_logos/Polygon_Logo-White.svg", alt: "Perplexity LOGO" },
     { src: "/sponsors_logos/replit-light.png", alt: "REPLIT LOGO" },
     { src: "/sponsors_logos/wolfram-lg.png", alt: "WOLFARM LOGO" },
     { src: "/sponsors_logos/xyz-logo-white.svg", alt: "XYZ LOGO" },
