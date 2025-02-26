@@ -1,7 +1,7 @@
 const items = [
   {
     key: 0,
-    title: "1st March 10:00 AM",
+    title: "1st March 11:00 AM",
     cardTitle: "Check-in and Opening Ceremony",
     cardDetailedText: "Check-in and get ready for Code Challenge XI 2025!",
   },
@@ -28,7 +28,7 @@ const items = [
   },
   {
     key: 4,
-    title: "1st March 4:00 PM",
+    title: "1st March 5:00 PM",
     cardTitle: "Closing Ceremony, Awards & Cleanup",
     cardDetailedText:
       "Celebrate the winners and wrap up Code Challenge XI with us.",

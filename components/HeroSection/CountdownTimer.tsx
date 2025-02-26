@@ -33,7 +33,7 @@ const CountdownTimer = () => {
   };
 
   useEffect(() => {
-    const endDate = new Date("2025-03-01T10:00:00-07:00"); // March 1st, 10 AM MST
+    const endDate = new Date("2025-03-01T10:00:00-07:00"); // March 1st, 11 AM MST
     const intervalId = setInterval(() => {
       calculateTimeRemaining(endDate);
     }, 1000);

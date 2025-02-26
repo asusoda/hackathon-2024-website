@@ -22,6 +22,7 @@ const About = () => {
       <h1 className="text-center text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-logo">
         What is Code Challenge XI?
       </h1>
+      
       <div className="mt-24 flex flex-col sm:flex-row w-full items-center justify-center gap-5 px-5">
         <div className="basis-1/3 border-2 rounded-2xl w-full p-5 glassy-effect aboutContainer1">
           <h1 className="text-4xl my-2 font-semibold blue-logo">
@@ -70,7 +71,7 @@ const About = () => {
             <br />
             <br />
             Put your problem solving and coding skills to the test in this
-            3-hour in-person competition on Sunday, March 1 (10:00 AM - 4:00
+            3-hour in-person competition on Sunday, March 1 (11:00 AM - 4:00
             PM). Open to all ASU students with separate prize pools for
             undergrads and grads.
             <br />
