@@ -66,36 +66,53 @@ const Content: React.FC = () => {
             variants={childVariants}
             className="md:text-2xl text-2xl text-white font-content font-bold m-1 mb-2"
           >
-            March 1 <br />10 AM - 6 PM, 2025
+            March 1 <br />
+            11 AM - 5 PM, 2025
           </motion.div>
         </motion.div>
         <motion.p
           variants={childVariants}
           animate="visible"
           className="text-white max-w-[360px] m-auto md:mt-4 mt-2 text-xs md:text-sm"
-          style={{ fontFamily: 'Space Grotesk' }}
+          style={{ fontFamily: "Space Grotesk" }}
         >
-          <a href ="https://maps.app.goo.gl/9XUDu4uFKyNEWxvX9" target="_blank" rel="noopener noreferrer">
-          Memorial Union Arizona Ventana <br /> (2nd Floor) 301 E Orange St., Tempe, AZ
+          <a
+            href="https://maps.app.goo.gl/9XUDu4uFKyNEWxvX9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Memorial Union Arizona Ventana <br /> (2nd Floor) 301 E Orange St.,
+            Tempe, AZ
           </a>
         </motion.p>
       </div>
-      <motion.div className="text-md text-white mb-8"> {/* Added margin-bottom for spacing */}
+      <motion.div className="text-md text-white mb-8">
+        {" "}
+        {/* Added margin-bottom for spacing */}
         <CountdownTimer />
       </motion.div>
-      <div className="!mt-10"> {/* Adjusted margin-top if needed */}
+      <div className="!mt-10 flex flex-row grow space-x-8">
+        {" "}
+        {/* Adjusted margin-top if needed */}
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSejSLKBFkya1mOxMMCgqMSgEmMHHnMM4r6_bZMjd7HYaUoauQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg hover:bg-red-700 transition-colors duration-300"
+          className="inline-block px-6 py-3 bg-[#3566ba] text-white font-bold rounded-lg  transition-colors duration-300"
         >
           Register
+        </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSejSLKBFkya1mOxMMCgqMSgEmMHHnMM4r6_bZMjd7HYaUoauQ/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg  transition-colors duration-300"
+        >
+          Rules
         </a>
       </div>
     </motion.div>
   );
-  
 };
 
 export default Content;

@@ -87,7 +87,7 @@ const CodeChallengeFaq = [
     question: <>What time does it start?</>,
     answer: (
       <>
-        Saturday, March 1 from 10:00 AM to 6:00 PM. Registration closes at start time - 
+        Saturday, March 1 from 11:00 AM to 6:00 PM. Registration closes at start time - 
         arrive early for check-in.
       </>
     ),

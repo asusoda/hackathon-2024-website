@@ -59,6 +59,7 @@ const Navbar = (activeSection: any) => {
           <Image
             src="/assets/images/hackerdevils.png"
             alt="HackerDevils"
+            className="rounded-3xl"
             width={50}
             height={50}
           />
