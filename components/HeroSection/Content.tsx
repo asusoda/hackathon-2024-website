@@ -103,7 +103,7 @@ const Content: React.FC = () => {
           Register
         </a>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSejSLKBFkya1mOxMMCgqMSgEmMHHnMM4r6_bZMjd7HYaUoauQ/viewform"
+          href="https://docs.google.com/document/d/1yoHXsA2gT9LomZhjRpBRWdZfROa4X9LXTuaXHdSVIoQ/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-[#ba3554] text-white font-bold rounded-lg  transition-colors duration-300"
