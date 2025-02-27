@@ -1,6 +1,7 @@
 import React, { createFactory } from "react";
 import "./sponsorTilt.css";
 import "../../styles/sponsors/background.css";
+import simplifyLogo from "../../sponsors_logos/simplify.svg";
 
 type Sponsor = {
   src: string;
@@ -30,44 +31,44 @@ export default function SponsorsSection2() {
   };
   const sponsors: SponsorsGroup = {
     //emerald: [{ src: "/sponsors_logos/Devfolio_Logo-White.svg", alt: "LOGO" }],
-    platinum: [    
+    platinum: [
       {
-      src: "/sponsors_logos/perplexity.svg",
-      alt: "PERPLEXITY LOGO",
-      link: "https://www.perplexity.ai",
-      class: "scale-[0.6] md:scale-[0.6] ",
-    },
+        src: "/sponsors_logos/perplexity.svg",
+        alt: "PERPLEXITY LOGO",
+        link: "https://www.perplexity.ai",
+        class: "scale-[0.6] md:scale-[0.6] ",
+      },
       {
-      src: "/sponsors_logos/amazon.svg",
-      alt: "AMAZON LOGO",
-      link: "https://amazon.com",
-      class: "scale-[0.6] md:scale-[0.6]",
-    },
-    {
-      src: "/sponsors_logos/statefarmm.png",
-      alt: "STATEFARM LOGO",
-      link: "https://www.statefarm.com",
-      class: "scale-[0.5] md:scale-[0.5]",
-    },
-    {
-      src: "/sponsors_logos/OH.png",
-      alt: "OPPORTUNITY HACKS LOGO ",
-      link: "https://www.ohack.org",
-      class: "scale-[0.6] md:scale-[0.6]",
-    },
-    {
-      src: "/sponsors_logos/viasat.svg",
-      alt: "VIASAT LOGO",
-      link: "https://www.viasat.com",
-      class: "scale-[1.3] md:scale-[2.4]",
-    },
-    {
-      src: "/sponsors_logos/sn.png",
-      alt: "SERVICENOW LOGO",
-      link: "https://www.servicenow.com",
-      class: "scale-[0.75] md:scale-[0.85]",
-    },
-  ],
+        src: "/sponsors_logos/amazon.svg",
+        alt: "AMAZON LOGO",
+        link: "https://amazon.com",
+        class: "scale-[0.6] md:scale-[0.6]",
+      },
+      {
+        src: "/sponsors_logos/statefarmm.png",
+        alt: "STATEFARM LOGO",
+        link: "https://www.statefarm.com",
+        class: "scale-[0.5] md:scale-[0.5]",
+      },
+      {
+        src: "/sponsors_logos/OH.png",
+        alt: "OPPORTUNITY HACKS LOGO ",
+        link: "https://www.ohack.org",
+        class: "scale-[0.6] md:scale-[0.6]",
+      },
+      {
+        src: "/sponsors_logos/viasat.svg",
+        alt: "VIASAT LOGO",
+        link: "https://www.viasat.com",
+        class: "scale-[1.3] md:scale-[2.4]",
+      },
+      {
+        src: "/sponsors_logos/sn.png",
+        alt: "SERVICENOW LOGO",
+        link: "https://www.servicenow.com",
+        class: "scale-[0.75] md:scale-[0.85]",
+      },
+    ],
     gold: [
       {
         src: "/sponsors_logos/AXP.svg",
@@ -94,26 +95,33 @@ export default function SponsorsSection2() {
         class: "scale-[0.5] md:scale-[0.50]",
       },
     ],
-    event:[
+    event: [
       {
-        src : "/sponsors_logos/Quant.png",
+        src: "/sponsors_logos/Quant.png",
         alt: "QUANT QUESTIONS LOGO",
         link: "https://quantquestions.io",
         class: "scale-[0.25] md:scale-[0.3]",
       },
       {
-        src : "/sponsors_logos/sunhacks.png",
+        src: "/sponsors_logos/sunhacks.png",
         alt: "SUNHACKS LOGO",
         link: "https://sunhacks.io",
         class: "scale-[0.25] md:scale-[0.3]",
       },
       {
-        src : "/sponsors_logos/celsius.svg",
+        src: "/sponsors_logos/simplify.png",
+        alt: "SIMPLIFY LOGO",
+        link: "https://simplify.jobs",
+        class: "scale-[0.5] md:scale-[0.6]",
+      },
+      {
+        src: "/sponsors_logos/celsius.svg",
         alt: "CELSIUS LOGO",
         link: "https://www.celsius.com",
         class: "scale-[0.5] md:scale-[0.6]",
       },
-     /* 
+
+      /* 
        {
         src : "/sponsors_logos/mlh.svg",
         alt: "MLH LOGO",
@@ -126,13 +134,16 @@ export default function SponsorsSection2() {
        link: "https://ethicalspectacle.org",
        class: "scale-[0.7] md:scale-[0.5]",
      }, */
-   ],
+    ],
     /*silver: [],*/ // Use this commented section if there is a category for silver sponsors
     /*bronze: [],*/ // Use this commented section if there is a category for bronze sponsors
   };
 
   const categorySizes: { [key: string]: CategorySize } = {
-    platinum: { imgSize: "h-[130px] w-[300px]  md:px-8 px-4 py-1 md:h-[200px] md:w-[600px] " },
+    platinum: {
+      imgSize:
+        "h-[130px] w-[300px]  md:px-8 px-4 py-1 md:h-[200px] md:w-[600px] ",
+    },
 
     emerald: { imgSize: "w-48 h-16 sm:h-full sm:w-full" },
     diamond: { imgSize: "w-48 h-16 sm:h-full sm:w-full" },
@@ -158,8 +169,15 @@ export default function SponsorsSection2() {
 
       {Object.entries(sponsors).map(([category, sponsorList]) => (
         <div key={category} className={`${category}SponsorContainer`}>
-            <h2 className={`text-center m-auto md:my-20 my-10 text-white text-lg md:text-xl xl:text-2xl md:w-1/6 w-1/2 font-semibold px-1 py-2 title-${category.toLowerCase()} rounded-md`}>
-  {category === "event" ? "Partners" : category.charAt(0).toUpperCase() + category.slice(1) + " Sponsors"} </h2>
+          <h2
+            className={`text-center m-auto md:my-20 my-10 text-white text-lg md:text-xl xl:text-2xl md:w-1/6 w-1/2 font-semibold px-1 py-2 title-${category.toLowerCase()} rounded-md`}
+          >
+            {category === "event"
+              ? "Partners"
+              : category.charAt(0).toUpperCase() +
+                category.slice(1) +
+                " Sponsors"}{" "}
+          </h2>
 
           <div className="flex flex-wrap justify-center md:px-20">
             {sponsorList.map((sponsor, index) => (
